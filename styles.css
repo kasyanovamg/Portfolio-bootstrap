@@ -1,0 +1,44 @@
+/* #FFDB93
+#E89B85
+#FFC6F5
+#FF9FF5
+#9585E8
+#B1E9FF */
+/* https://color.adobe.com/ru/create/color-wheel/?base=2&rule=Analogous&selected=4&name=%D0%9C%D0%BE%D1%8F%20%D1%82%D0%B5%D0%BC%D0%B0%20Color&mode=rgb&rgbvalues=1,0.8579236925059439,0.574995433885661,0.91,0.6085388513418183,0.5232458448359515,1,0.6249954338856609,0.9611222364919108,0.583275144542931,0.5232458448359515,0.91,0.6943596223150342,0.9144032433873951,1&swatchOrder=0,1,2,3,4 */
+body {
+	background-color: #FFF3FB;
+}
+.navbar {
+	background-color: #FFE0F5;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #FF9FF5;
+}
+
+.top-menu {
+	  text-align: center;
+  transition:200ms ease-in-out;
+  overflow:hidden;
+}
+
+.profile-pic {
+	max-width: 40%;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 3px solid #FF9FF5;
+}
+.top-info {
+	background: rgba(0, 0, 0, 0.8);
+	color:  #FF9FF5;
+	display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+} 
+.top {
+	background-image: url('http://clipart-library.com/images/zTX5Mb6Kc.jpg');
+	background-attachment: fixed;
+	height: 120vh;
+    width: 100vw;
+}
