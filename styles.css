@@ -10,9 +10,16 @@ body {
 }
 .navbar {
 	background-color: #FFE0F5;
+	border: none;
+	z-index: 100;
 }
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: #FF9FF5;
+}
+.navigation {
+	width: 100vw;
+	position: fixed;
 }
 .profile-pic {
 	max-width: 40%;
@@ -49,6 +56,7 @@ body {
 	color: #FF9FF5;
 	font-size: 6em;
 	text-shadow: 0 3px 5px #000;
+	margin-top: 50px
 }
 .project-image {
 	border: 1px solid #FF9FF5;
