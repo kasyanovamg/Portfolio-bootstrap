@@ -45,18 +45,19 @@ body {
 .middle {
 	background-image: linear-gradient(to bottom left, #FFC6F5, #FFDB93);
 	background-attachment: fixed;
-	height: 120vh;
+/* 	height: 120vh; */
     width: 100vw;
-}
-.middle-info {	
+    padding: 0 5% 0 5%;
 
 }
+
 .projects {
 	text-align: center;
 	color: #FF9FF5;
 	font-size: 6em;
 	text-shadow: 0 3px 5px #000;
-	margin-top: 50px
+	margin-top: 50px;
+	padding-bottom: 20px;
 }
 .project-image {
 	border: 1px solid #FF9FF5;
@@ -67,12 +68,9 @@ body {
 .images {
 	background: rgba(0, 0, 0, 0.8);
 	color:  #FF9FF5;
-/* 	display: flex; */
-    align-items: center;
     width: 90vw;
-    height: 100vh;
     margin: 0 auto;
-
+    padding-top: 30px;
 }
 .bottom-info {
 	background: rgba(0, 0, 0, 0.8);
@@ -96,14 +94,14 @@ body {
 	background-color: transparent;
 	border: none;
 }
-.thumbnail .caption {
+.example {
 	color: #FF9FF5;
 }
  
 .bottom {
 	background-image: url('http://clipart-library.com/images/zTX5Mb6Kc.jpg');
 	/* background-attachment: fixed;  makes background stable when scroll */
-	height: 120vh;
+/* 	height: 120vh; */
     width: 100vw;
 }
 .logo {
@@ -119,4 +117,10 @@ button {
 footer {
 	padding:  20px;
 	text-align: center;
+}
+.img-responsive {
+	display: inline;
+}
+a:hover {
+	text-decoration: none;
 }
