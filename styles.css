@@ -31,7 +31,7 @@ body {
 } 
 .top {
 	background-image: url('http://clipart-library.com/images/zTX5Mb6Kc.jpg');
-	background-attachment: fixed;
+	background-attachment: fixed; /* makes background stable when scroll */
 	height: 120vh;
     width: 100vw;
 }
@@ -51,14 +51,15 @@ body {
 	text-shadow: 0 3px 5px #000;
 }
 .project-image {
-	max-width: 100%;
-	max-height: 100%;
 	border: 1px solid #FF9FF5;
+}
+.project-image:hover {
+	box-shadow: 5px 5px 7px #FFC6F5;
 }
 .images {
 	background: rgba(0, 0, 0, 0.8);
 	color:  #FF9FF5;
-	display: flex;
+/* 	display: flex; */
     align-items: center;
     width: 90vw;
     height: 100vh;
@@ -80,5 +81,34 @@ body {
 .contacts {
 	list-style: none;
 	font-size: 3em;
+	text-align: left;
+	padding: 60px;
+}
+.thumbnail{
+	background-color: transparent;
+	border: none;
+}
+.thumbnail .caption {
+	color: #FF9FF5;
 }
  
+.bottom {
+	background-image: url('http://clipart-library.com/images/zTX5Mb6Kc.jpg');
+	/* background-attachment: fixed;  makes background stable when scroll */
+	height: 120vh;
+    width: 100vw;
+}
+.logo {
+	width: 50px;
+	height: 45px;
+}
+form {
+	padding: 60px;
+}
+button {
+	background-color: grey;
+}
+footer {
+	padding:  20px;
+	text-align: center;
+}
