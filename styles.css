@@ -41,6 +41,7 @@ body {
 	background-attachment: fixed; /* makes background stable when scroll */
 	height: 120vh;
     width: 100vw;
+    margin-bottom: -30px;
 }
 .middle {
 	background-image: linear-gradient(to bottom left, #FFC6F5, #FFDB93);
