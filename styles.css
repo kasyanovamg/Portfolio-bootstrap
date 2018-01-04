@@ -98,7 +98,7 @@ body {
  
 .bottom {
 	background-image: url('http://clipart-library.com/images/zTX5Mb6Kc.jpg');
-	/* background-attachment: fixed;  makes background stable when scroll */
+	background-attachment: fixed; /*  makes background stable when scroll */
 /* 	height: 120vh; */
     width: 100vw;
 }
